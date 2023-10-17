@@ -66,6 +66,8 @@ class _CounterViewState extends State<CounterView> {
                   friendList [index] = updateItemController.text;
                 });
                 updateItemController.clear();
+                
+                // It close the current screen or dialog.
                 Navigator.pop(context);
               },
               child: Text("Update"),
