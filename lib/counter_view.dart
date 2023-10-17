@@ -306,7 +306,7 @@ class _CounterViewState extends State<CounterView> {
         // ),
         
         
-        //  The "ListView" don't wrap with the "Column" because i
+        //  The "ListView" don't wrap with the "Column" because it disable the ListView properties.
         //// The "ListView" has its own scrolling properties.
         // ListView(
         //   children: [
